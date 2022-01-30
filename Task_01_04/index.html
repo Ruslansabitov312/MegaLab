@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Push li to ol</title>
+    </head>
+    <body>
+        <ol id="todo-list"></ol>
+        <!-- Чтобы убрать маркер/нумерацию в "элементы"(анордередлист/ul) -->
+        <!-- <style>
+             li { list-style-type: none }
+        </style> -->
+        <script>
+            let tasks = ['Buy lemonade', 'Make toasts', 'Repair car', 'Play games', 'Pet a cat']
+            
+            let ol = document.getElementById("todo-list")
+
+            for (let i = 0; i < tasks.length; i++) {
+                ol.innerHTML += `<li class='task'>${tasks[i]}</li>`
+            }
+            console.log(ol)
+        </script>
+    </body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ожидаемый результат</title>
+</head>
+<body>
+    <ol id="todo-list">
+        <li class="task">Buy lemonade</li>
+        <li class="task">Make toasts</li>
+        <li class="task">Repair car</li>
+        <li class="task">Play games</li>
+        <li class="task">Pet a cat</li>
+    </ol>
+</body>
+</html> -->

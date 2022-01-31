@@ -5,4 +5,4 @@
 * 03revstr   branch is task 3
 * 04litool   branch is task 4
 * 05currtime branch is task 5
-* 07counter  branch is task 7
+* 08counter  branch is task 8
